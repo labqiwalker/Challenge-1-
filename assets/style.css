@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.header {
+    position: relative;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #F1F3FF;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+.gambar {
+    position: relative;
+    width: 459px;
+    height: 428px;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 468px;
+    height: 356px;
+}
+
+.why-us {
+    position: relative;
+    width: 1168px;
+    height: 308px;
+}
+
+.orang {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1168px;;
+    height: 326px;
+    background: #0D28A6;
+    border-radius: 13px;
+}
+
+.figure-caption {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.acordion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+.bintang {
+    position: relative;
+    width: 619px;
+    height: 270px;
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.pertanyaan {
+    width : 30%;
+    height: 344px;
+}
+
+.list-pertanyaan {
+    width : 50%;
+    height: 344px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    font-size: 1rem;
+}
